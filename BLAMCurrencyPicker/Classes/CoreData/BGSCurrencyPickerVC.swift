@@ -10,7 +10,7 @@ import UIKit
 import CoreData
 
 /// Protocol returning the currency
-protocol BGSCurrencyPickerVCProtocol
+public protocol BGSCurrencyPickerVCProtocol
 {
     /// Method called when the Use option is selected
     /// - Parameter currISO: the ISO 4217 code for the currency (e.g. USD, GBP etc...)
@@ -25,7 +25,7 @@ protocol BGSCurrencyPickerVCProtocol
 
 
 public class BGSCurrencyPickerVC: UIViewController,UICollectionViewDelegate {
-    var delegate:BGSCurrencyPickerVCProtocol! = nil
+    public var delegate:BGSCurrencyPickerVCProtocol! = nil
 
     @IBOutlet weak var butSelect: UIButton!
     @IBOutlet weak var lblSymbol: UILabel!

@@ -9,8 +9,12 @@
 import UIKit
 import BLAMCurrencyPicker
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, BGSCurrencyPickerVCProtocol  {
 
+    @IBOutlet weak var lblCurrency: UILabel!
+    @IBOutlet weak var lblCurrencyCode: UILabel!
+    
+    
     @IBOutlet weak var viewMarker: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,11 +35,19 @@ class ViewController: UIViewController {
         vc.popoverPresentationController?.sourceView = viewMarker
         vc.popoverPresentationController?.permittedArrowDirections = UIPopoverArrowDirection.Up
         vc.preferredContentSize = CGSizeMake(vc.view.frame.width, vc.view.frame.height)
-        //    vc.delegate = self
+        vc.delegate = self
         self.presentViewController(vc, animated: true, completion: nil)
         
         
     }
+    
+    //MARK:- Delegate implementations
+    func bgsCurrencyPicked(currISO: String, currHex: String){
+        lblCurrency.text = currHex
+        lblCurrencyCode.text = currISO
+        
+    }
+
 
 
 }
