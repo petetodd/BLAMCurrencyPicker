@@ -17,7 +17,7 @@
 		1330782A55555085FE8872AF7BA8DD48 /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311C620023A9445DE68F2582C13839E5 /* DSL.swift */; };
 		135B6326D35C977854AA0C12B3F6CB7D /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7116E4797A8F559FBCC350C433EB2AB /* DSL.swift */; };
 		13CC849FA70CADF802470B6A90DCDF79 /* AllPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425293E77484F37F2F26FA98CECCAB9F /* AllPass.swift */; };
-		1817E71FEB26432052A815E38703B1F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77FF979DB93FFC369BEC3D6B3C8B9C7A /* Foundation.framework */; };
+		173354737B6CBAA4EC60E4A851127E58 /* BGSCurrencyPickerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F132091D7259E494C85BA8D31067A1F /* BGSCurrencyPickerVC.xib */; };
 		1C696A0CCC5C29FFBBB8620F5DC8FA6D /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CA51A537B8A1D62516D4D49038B2EA /* Example.swift */; };
 		1ED8C77E9422C66BBF56E6C10D5826F0 /* NMBExceptionCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF330BF6C88C59845888329E76AF044 /* NMBExceptionCapture.m */; };
 		23626BC4DDA1A2E90A155728F57802FF /* DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 859C5C30856A6617F00E5D648C212EC9 /* DSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,27 +25,30 @@
 		2A0909398FC8042F73B035C7CCC65F5A /* Pods-BLAMCurrencyPicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 190C971A10074B9B6CEE77E26F3C98B9 /* Pods-BLAMCurrencyPicker_Tests-dummy.m */; };
 		2C87E1788C8FA06AE3481A2226E3AF2D /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4735107E92082DC6617FC47323AC36 /* UIApplication+StrictKeyWindow.m */; };
 		30AACAA8D51DC8C429577D9B67BB016C /* BeginWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF51A81CF86181D76DF7B232F158D51C /* BeginWith.swift */; };
+		30F920DC230C94048638FF38B9EF47C4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668F977BEEEFDA31DC6E34659B8B740E /* CoreData.framework */; };
 		31629295E87A24C98238C66D41983C49 /* BeVoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999FFA06127CE356CBCD2A88AE2E3F4A /* BeVoid.swift */; };
-		31AC571DC35701E68126CC4965C51950 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77FF979DB93FFC369BEC3D6B3C8B9C7A /* Foundation.framework */; };
+		31AC571DC35701E68126CC4965C51950 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 488F02A27FC87FF75CF181909678FFE8 /* Foundation.framework */; };
 		34A1C7E576C58A9D3F3101448308BF3E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = F6D33E22C1EA1BEFBD331FD3AE10D062 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		359B954C80757BECB9DBE9F0D097EA43 /* BGSCurrencyPickerCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37EF5E37995BDF1E4CFA1E64F448DED /* BGSCurrencyPickerCoreData.swift */; };
 		36076C14B35110B528A15AF21826CCE1 /* Nimble-Snapshots-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D545F27E18ADFAD9F345E383D18D10FA /* Nimble-Snapshots-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36A09777D96DA589FD7FB47DD6EDC2AB /* Nimble-Snapshots-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D265F92858B7163B7B7C50D380E34E68 /* Nimble-Snapshots-dummy.m */; };
 		38F5CE4B4C59A81734A93E32D35B696E /* FailureMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29069528FAD306847C75AF601701B09 /* FailureMessage.swift */; };
 		3D1BB98DEA422D8F173613EC715488B9 /* PostNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4367C4488925AB67CC39819E11B023 /* PostNotification.swift */; };
 		3DB8697476CF88CF1F0DACBD6197AEA3 /* ErrorUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C9D54735C982473CFF0644E3A03B67 /* ErrorUtility.swift */; };
 		415F29FE4E9D970954C46CD3CF4AE345 /* SatisfyAnyOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = E614CEF798B620B0B98837100B736AF5 /* SatisfyAnyOf.swift */; };
-		4276F61096C4F0DC5C661C73615EC517 /* BGSCurrencyPickerCVCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 5D05E69A66C4CCC05E351D8661EBBC05 /* BGSCurrencyPickerCVCell.xib */; };
 		42C1B865ACFEDF0D10562F656D5278B2 /* World.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EC748B938739D8B87F415EE175F58D1 /* World.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		430513AAFD54C561CE353EAD629AAC1F /* BLAMCurrencyPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDC69CCD428449770250C94C7876ABB /* BLAMCurrencyPicker-dummy.m */; };
 		44D88EB9EEA47A1F17E3A29B494ACDEB /* QCKDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = EE15230104557E3A99132C72E8069B79 /* QCKDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		47CBCE8837CE75AE1B7484A63CE387ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77FF979DB93FFC369BEC3D6B3C8B9C7A /* Foundation.framework */; };
+		451DBC506F91F05C7F78BB33B8D2A181 /* BLAMCurrencyPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B9E5BB34B5AD2FEADBE4597D1C7D9B1B /* BLAMCurrencyPicker.bundle */; };
+		47CBCE8837CE75AE1B7484A63CE387ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 488F02A27FC87FF75CF181909678FFE8 /* Foundation.framework */; };
 		486B74C8EFEB68AD25CE128F3051E432 /* ObjCExpectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33045C4D701E54CE8539A9038ADBFBDA /* ObjCExpectation.swift */; };
 		497AA8816FC08215EF4C2431E1986992 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CC9179543B4BE3415FDF6A9E07E66A /* FBSnapshotTestCase-dummy.m */; };
-		499FBBE0BC69D633856BB07E2C80C0CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77FF979DB93FFC369BEC3D6B3C8B9C7A /* Foundation.framework */; };
+		499FBBE0BC69D633856BB07E2C80C0CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 488F02A27FC87FF75CF181909678FFE8 /* Foundation.framework */; };
 		49CA018A1EFE0681D470F5743BA8BB0F /* QuickTestSuite.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE997C745F05A9B57C00D839E47FD137 /* QuickTestSuite.swift */; };
 		4A2EF0E72836C8432665C044C67933EA /* String+FileName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7919E006D8AD5BDDA891839BF797D2B7 /* String+FileName.swift */; };
 		4AF6C26A30D865059C24DC5317786B76 /* BeNil.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D6AF1AB45E76B352DD93ACE676230A /* BeNil.swift */; };
 		4E5A721963877AA3A6AA3D80DAA4E5E9 /* AssertionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2C8E711729FB4599F51C263CB8965D /* AssertionRecorder.swift */; };
-		5067E26B35BE61BD3AA1BDE1B86BF71A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77FF979DB93FFC369BEC3D6B3C8B9C7A /* Foundation.framework */; };
+		5067E26B35BE61BD3AA1BDE1B86BF71A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 488F02A27FC87FF75CF181909678FFE8 /* Foundation.framework */; };
 		5104AE2989305145BF446E633B567924 /* EndWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = E772D3E5AF34E2F6DC985845FB3489AF /* EndWith.swift */; };
 		5438871833E759C86C2CA743AD3EF2DD /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAD9B4FF295C9E0487B426B9968F28B /* World.swift */; };
 		5EF5C00C6AECE1FCFFF118577817F5CE /* Equal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786FE4B4725F603253354543D534DE89 /* Equal.swift */; };
@@ -61,12 +64,13 @@
 		6ED0409031540D9B2AD7B061B608B0C9 /* DSL+Wait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CC416E6691073F6AA0B44428259AC1 /* DSL+Wait.swift */; };
 		7202A0B871C57B7857341D88C2883A3A /* BeIdenticalTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440C1E2EE5D680BE6079CE69974985C3 /* BeIdenticalTo.swift */; };
 		730FE65CF9B832FC01AB3F545A8CAF73 /* QuickSelectedTestSuiteBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6D05EE2BA25EB952B5E566EDE6048E /* QuickSelectedTestSuiteBuilder.swift */; };
-		73B96724E9D2B03677BA3C2D24601D64 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6EE56D4DC2461C7BBF0AE378723875 /* XCTest.framework */; };
+		73587C0E13B1079E39AA9CB3E49A081E /* BGSCurrencyPickerDataModel.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = 8FF2AFD91C8B5F6FDD1253383D5A0477 /* BGSCurrencyPickerDataModel.xcdatamodeld */; };
+		73B96724E9D2B03677BA3C2D24601D64 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C62C7E35BEAF753FE71B5AA130374B /* XCTest.framework */; };
+		75F0B4714CD7FD92CDCBD6FA14BBF753 /* BGSCurrencyPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7C57AAD1F3C0C802C394AAA6309ED3 /* BGSCurrencyPickerVC.swift */; };
 		7734BABBECE0071CF5D4430515B938BF /* BeCloseTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D994B4D3BA540103383263CD192B52D9 /* BeCloseTo.swift */; };
 		775646739B95E828ECE349F6A39534F4 /* NimbleEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7721577730C07577C8AAE8B06E7DBFC0 /* NimbleEnvironment.swift */; };
-		78C0EDC656B9152FB603EC259D241DA5 /* FBSnapshotTestCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9823197EA5904A9150FB0AD8B09841E6 /* FBSnapshotTestCase.framework */; };
+		78C0EDC656B9152FB603EC259D241DA5 /* FBSnapshotTestCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5026E1B5E2A8DC8208BC77C323A9100 /* FBSnapshotTestCase.framework */; };
 		7929623E9CC7C966AD703F6410B3935A /* XCTestSuite+QuickTestSuiteBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A490DE6EF5FD2EECBD3E87DDD7B1F0 /* XCTestSuite+QuickTestSuiteBuilder.m */; };
-		7BF2A9BEA378F9E9317D7F4BF9607823 /* BLAMCurrencyPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B9E5BB34B5AD2FEADBE4597D1C7D9B1B /* BLAMCurrencyPicker.bundle */; };
 		7CC86ABC7F4135EE12A755B023F134CE /* AssertionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D1223A52A7D757500B5F20A08B5AD6 /* AssertionDispatcher.swift */; };
 		7DC9B169B5FCC3EE99F6D36EC530FE1E /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D8617C7CB79D6BC7E4582B59727905 /* Async.swift */; };
 		7EBD6B630F4536CB673DC0B455CCB16D /* BeGreaterThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907F33C2B0CF1BD93F497D1B0CCEB5F6 /* BeGreaterThan.swift */; };
@@ -74,59 +78,57 @@
 		800A161E9B82DEEDA41B7F1A746B24C4 /* ObjCMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EB9821FB5B9F801F415103D86794A2 /* ObjCMatcher.swift */; };
 		8040A37FF5BBDF1964CAB8C0068ED315 /* BeGreaterThanOrEqualTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F18A014577D0391052EF282FE3049C /* BeGreaterThanOrEqualTo.swift */; };
 		81E6453ECE511335537301CD3B1C1B82 /* ExceptionCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC4C06A00F57A3332BFBC63C0DA3F1E /* ExceptionCapture.swift */; };
-		82E55B1159083B37527C20EB4E621550 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD55F3974939097556240403DEE2DFF /* Nimble.framework */; };
+		82E55B1159083B37527C20EB4E621550 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA024F18EB028F03E50D35B7336EB1DE /* Nimble.framework */; };
 		83DA9B6F380D643725CFEE4E9AAB9F5D /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3C2FBB1FC976C951FF3B1F3E7CE2CF /* Filter.swift */; };
-		8404F7168BDB16D6157E38B56C831CA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77FF979DB93FFC369BEC3D6B3C8B9C7A /* Foundation.framework */; };
+		8404F7168BDB16D6157E38B56C831CA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 488F02A27FC87FF75CF181909678FFE8 /* Foundation.framework */; };
+		85039ABEDD16296D627EA87FCFCDE1D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 488F02A27FC87FF75CF181909678FFE8 /* Foundation.framework */; };
+		851448CA6893A6EAEDD40B0788685E08 /* BGSCurrencyPickerCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 942E6DF027E8813DEEF10A7BAD41D8EC /* BGSCurrencyPickerCVCell.xib */; };
 		85D178DFCA1BC67BBFB1188E34EC5B19 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848C402D439EB9B5972AECCE4084C23C /* SwiftSupport.swift */; };
 		85D4DBD7E83768DAFD903EF915D1C1DA /* HooksPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA67375ED7A4B3A90A94312D0D93E05C /* HooksPhase.swift */; };
 		86FB708FCFE6121A82BB09E5ADD84554 /* NMBExceptionCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FF4072FF3B5A22E2FC2DBDFEF8428B3 /* NMBExceptionCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8ACF6A5515A175054E22414BF740EF14 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 48F777E25ED36E70CE87097188DADEAA /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8BE18850FEC3F28B85121AEBE3F12A97 /* Pods-BLAMCurrencyPicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1949094BF7559BC39DC0FF1889CDF9C /* Pods-BLAMCurrencyPicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9137D15E4C432CD4FEA43DC273C3ADE8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6EE56D4DC2461C7BBF0AE378723875 /* XCTest.framework */; };
+		9137D15E4C432CD4FEA43DC273C3ADE8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C62C7E35BEAF753FE71B5AA130374B /* XCTest.framework */; };
 		91ED5B067FCA3CBD48E3114672941051 /* MatcherProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC8B86181C85EC4029D31826D97DBDE /* MatcherProtocols.swift */; };
 		96ED0CCA721955637A88FE0C9737EC56 /* SourceLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5DC65580B17F93D38B52747F3C1A9C /* SourceLocation.swift */; };
 		9797D1253455093A7AF4E0F401C4D65A /* Pods-BLAMCurrencyPicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B63D311A89DBF213137F52077C943D /* Pods-BLAMCurrencyPicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B5DE58927557CE87968C051D2A1C47E /* BeLogical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D22A66AD4CF0ED8361AF36F94FD91C /* BeLogical.swift */; };
 		9BAEE6A607528BBFAA526CFFA5277E43 /* ExampleHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F8B8308864A130D630110C7734744E /* ExampleHooks.swift */; };
 		9C185CB0E0636BD9DD3E9E96A0462317 /* NSString+QCKSelectorName.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B112F1E9B122094C5F127A0CA8E480 /* NSString+QCKSelectorName.m */; };
+		9E290DB07BD6D9E0F336D41DF64E998D /* CurrencyCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0B95EE3A4B18182195C243AB2059C1 /* CurrencyCode.swift */; };
 		9EE41FAF2A88E2DCEEE2C974E33C398E /* QuickConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 3358B5E8463BBBF73653B2FBB6916DE5 /* QuickConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F08F74CB8740CF0EFF26746EEB0C930 /* CurrentTestCaseTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 36215F7E5778F54BA3D2A39454D4B03F /* CurrentTestCaseTracker.m */; };
 		9FA3B93CE0ECAC3CDC30890659AACF82 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 2518F997765A59F844B6A841E7723FA7 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9FEDE8823CA3E5BED72CE34D042D131E /* BGSCurrencyPickerDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111D39BC9A306F812AC559FDDA2BA5D6 /* BGSCurrencyPickerDataController.swift */; };
 		A1253488850CE3B86ED19CB93A9CD3D5 /* HaveValidSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3B4A87FE17DFB2CCA9CAD7D79D0D48 /* HaveValidSnapshot.swift */; };
-		A19A9CEFC8A7E59749FD11CD89AB4AB7 /* BGSCurrencyPickerCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD60414039DFB47973E095ECC22CF7B /* BGSCurrencyPickerCVCell.swift */; };
 		A2CABD326609AD67377700A148785E09 /* BeAnInstanceOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = D583345A544DBE4373F3BB917431FFAF /* BeAnInstanceOf.swift */; };
 		A374A2729E32469085C5025EC7115EB8 /* Stringers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249D2638D0070442D0D750885D075640 /* Stringers.swift */; };
 		A55EC200F57C00E9A78D8A9DA4545338 /* HaveCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D2C7849BF96607CCC8F48B5000898E /* HaveCount.swift */; };
-		A6F96F810591A915EA896B73E212BC56 /* BGSCurrencyPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25C576E4B7F5D971DE5EADD85D75FBC /* BGSCurrencyPickerVC.swift */; };
+		A5E078D6C853B842A55190212E911FC8 /* BGSCurrencyPickerDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391C6E34A9932979C06C896A9A168089 /* BGSCurrencyPickerDataController.swift */; };
 		A76AE1344634A61F11784DDDABE8C00D /* World+DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = BAEE0AA407B501B27CD879CF8E608E81 /* World+DSL.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A7CF72F5C29A8F9A61196B68201DC3C2 /* BGSCurrencyPickerVC.xib in Sources */ = {isa = PBXBuildFile; fileRef = 8D31E0237E03ED8EF7EA006BEB3FF960 /* BGSCurrencyPickerVC.xib */; };
 		A8B06933352034483F1654F21432FDCF /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC4A4C40B59567B2C0BED393FA0EB20 /* Closures.swift */; };
-		A932B89F114B02D24B5FBF362FD0B9F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77FF979DB93FFC369BEC3D6B3C8B9C7A /* Foundation.framework */; };
+		A932B89F114B02D24B5FBF362FD0B9F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 488F02A27FC87FF75CF181909678FFE8 /* Foundation.framework */; };
 		ACB09D78794FB7AEA6EC6EDDADD38DAD /* QCKDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = F03A1A302C6C29F7707D1545C60B509D /* QCKDSL.m */; };
 		AD2D4354F429E4DBD49D327BD408A3EB /* NSBundle+CurrentTestBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5038A9C14E90AA451724DCD0D3FCA8BA /* NSBundle+CurrentTestBundle.swift */; };
 		B1825287DE872A038A4A44623EA54C1B /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DA3A806920B5D6DC56ED011270DE1F /* Configuration.swift */; };
 		B43EDBC7DA15A429006C67B63D45ACFD /* ThrowError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E685779B53865FBDF4197A9CE4D9FD1 /* ThrowError.swift */; };
 		B6A67A3B998747E4290BF6010EC33806 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3480229FE5312ED491104B2619BC675D /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7169D667C9272F0D7D7D6EB1A805A3F /* BGSCurrencyPickerCVDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2C2BAD01E1ACE3746AD88DB21B102D /* BGSCurrencyPickerCVDataSource.swift */; };
 		B9D2E426B5CA226D60A78A71FA289D4C /* AsyncMatcherWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F5BE94693475F841CEEC329FF19A11 /* AsyncMatcherWrapper.swift */; };
 		BBE10615F3CD16FAF02BBD3D42B6D246 /* World+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60104C3BBC45FA4AE08E62653BA6F961 /* World+DSL.swift */; };
 		BD6302ECE07C5DD92C9826E7E6C9DBA9 /* Quick-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64228F5CDC7D1D84B4330B40FFB69D8A /* Quick-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C033C346AC287D2009457C31E85587D1 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C36DB6F05615EC71278526272A72BAD /* Quick.framework */; };
+		C033C346AC287D2009457C31E85587D1 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1642C955345ACB4239EB079A1C7AC4DE /* Quick.framework */; };
 		C12E0930E021F1894B60BC6AFA8F2409 /* AdapterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233BF814866ED4F7C6434F41F12EFBCF /* AdapterProtocols.swift */; };
 		C360952381641F725C15758993A0F665 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C9BFB4E392CEED3BC63CB05F5EADAF /* UIImage+Diff.m */; };
 		C81FFEEC76399EF3C7C1EE349C810E76 /* NimbleXCTestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87225E9B9E389551A1F536347B982B04 /* NimbleXCTestHandler.swift */; };
 		CAEDA189835FD7D4506122CDA8063B57 /* Pods-BLAMCurrencyPicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7690B0F9A9191677C4FDB80E5AB366 /* Pods-BLAMCurrencyPicker_Example-dummy.m */; };
 		CBB70E882E7FE0FF926730EAA0CD59DA /* ExampleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5D10BCD0066C637018C7806D39B902 /* ExampleGroup.swift */; };
 		CD0A671D2A8DD31D50449BB358C56134 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B876839489EC061BA2BA8EA8E3BAAE /* Expression.swift */; };
-		CF45D78D927A3678B8B6A0618D2629C1 /* BLAMCurrencyPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60EB9F49473B798CF5EC55011A2A85B1 /* BLAMCurrencyPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D0AB346B1D82CD9B00AC19B5 /* BGSCurrencyPickerDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0AB34691D82CD9B00AC19B5 /* BGSCurrencyPickerDataModel.xcdatamodeld */; };
-		D0AB346E1D82CE5800AC19B5 /* CurrencyCode+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AB346C1D82CE5800AC19B5 /* CurrencyCode+CoreDataProperties.swift */; };
-		D0AB346F1D82CE5800AC19B5 /* CurrencyCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AB346D1D82CE5800AC19B5 /* CurrencyCode.swift */; };
-		D0AB34711D82CEB700AC19B5 /* BGSCurrencyPickerCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AB34701D82CEB700AC19B5 /* BGSCurrencyPickerCoreData.swift */; };
+		CD75B6509FE3AB3B20A4410D56F0AD9E /* BLAMCurrencyPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AF364E804A1F3C55D8F2F6804CAFEF5 /* BLAMCurrencyPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D39881E8AB50A77DABF756314695BF25 /* PrettySyntax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8438BF6E32271A662D9C3B630EEFB2 /* PrettySyntax.swift */; };
 		D39D7A9422384FEA6463626792C00FF4 /* QuickSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF343DFD1C01B260FA04D422349D426 /* QuickSpec.m */; };
 		D41F628A81153A978EB209E4FE925700 /* Nimble.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E65CDBFB735DF3AD2C40D79C63092DF /* Nimble.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D5C30BC656C11AF60394E3180A217BB1 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = B28003917869A306C9497FB3139B5550 /* UIImage+Snapshot.m */; };
+		D927CAC621200F7213DDA8722BAFEE04 /* BGSCurrencyPickerCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809D46F238348FE888CEFE21C22C1E32 /* BGSCurrencyPickerCVCell.swift */; };
 		DCA54337E8687685A293CC24A97F936C /* Contain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168FB3F77E4C4F8A60BD0821D35D19C7 /* Contain.swift */; };
 		DF0216DBDE0084F6C87FE9275A4E9F0D /* Nimble-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F65877051A80854B8307C51E5BF152 /* Nimble-dummy.m */; };
 		E3B1EAAC82543C09339AE71FE9B31AEC /* QuickSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = 7395C69488EE986713CFCD76E434400B /* QuickSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -134,16 +136,15 @@
 		E909D0D33037F3C642BBB8D47FC642B3 /* Nimble-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6203A309895700207A684C456765291 /* Nimble-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9A500611CF699885DE8A6BAB4E6B392 /* BeEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957F682B3F1EE74D842B29320D0D131 /* BeEmpty.swift */; };
 		EAA652557B70F493923A3447B5D64E0D /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = BF446B28545341AFF094A94F8633BDF6 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		ED60F0FCE00B05D670EAEAAB22A01B7C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6EE56D4DC2461C7BBF0AE378723875 /* XCTest.framework */; };
+		ED60F0FCE00B05D670EAEAAB22A01B7C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C62C7E35BEAF753FE71B5AA130374B /* XCTest.framework */; };
 		ED6A0B20E661EA13A99C377E2213DC5F /* NimbleSnapshotsConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69F965743749243B4108DC054D9C80B /* NimbleSnapshotsConfiguration.swift */; };
-		F094F72475D9AAFF1306A5F38F4C0BD1 /* BLAMCurrencyPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DE0748B65D427B5259329086C48BDF /* BLAMCurrencyPicker-dummy.m */; };
-		F0B3BC4CE7B1074981F32DDD032E9539 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D582674A6983604C34B81F809F76255 /* UIKit.framework */; };
-		F366B775C22BBE1DBAC7BDB7DE8F0A26 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F609119DC233417D2E53038D69EDA53D /* QuartzCore.framework */; };
+		F0B3BC4CE7B1074981F32DDD032E9539 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37F4A4ABF1BA756E4009DB36BD3E1C6F /* UIKit.framework */; };
+		F366B775C22BBE1DBAC7BDB7DE8F0A26 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF105D01AD09E60D4E3448D8DE1D807D /* QuartzCore.framework */; };
 		F47158C234C50FFB069A1EF8AB26D9F1 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF1B41E38EDD94E1ED1FE9BC999DEF1 /* FBSnapshotTestController.m */; };
-		F55FB127024EA1A5EF114DD4A3E6B74F /* BGSCurrencyPickerCVDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5228C48A15403A050C86EBC86872DD78 /* BGSCurrencyPickerCVDataSource.swift */; };
 		F85A9207A8601CE7F835CEC56790616F /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C83F5C578988BC0F8D2A7B6ADFD0E5F /* Expectation.swift */; };
 		F953B46C77C8981DBEC593D9FDCFA4C9 /* Quick-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE5D30F0D3C4A71B9A23B47406AE1BC /* Quick-dummy.m */; };
 		FB09A16A6662F2689D4AA89538DBF1C1 /* BeAKindOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676C36E5049792670440A6A37A23B705 /* BeAKindOf.swift */; };
+		FD592959F9E3D17C590C30DF89BF86F1 /* CurrencyCode+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB4FEF7ED83562424DE12FD408682EA /* CurrencyCode+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -165,7 +166,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4410D841A3E81751E0632A0BBD100965;
+			remoteGlobalIDString = 19FD622FF0703D43F1CA2E00204CD5BF;
 			remoteInfo = BLAMCurrencyPicker;
 		};
 		4CDD470BF5F82E45FFFD16EE20552334 /* PBXContainerItemProxy */ = {
@@ -196,6 +197,13 @@
 			remoteGlobalIDString = A5C430B1E2D8298FD6C5403590C0B80F;
 			remoteInfo = Quick;
 		};
+		957073B45A7115836D0CC3207B17B345 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D315C4F421E5771819D07AF7AFED128A;
+			remoteInfo = "BLAMCurrencyPicker-BLAMCurrencyPicker";
+		};
 		B81FEEF540D689BE4A7ACE9A3624FF18 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -203,25 +211,19 @@
 			remoteGlobalIDString = FF61C7C740C1B196A3B33F37B77DBC68;
 			remoteInfo = Nimble;
 		};
-		BCFBF87C5CC6E99206C988E5B4A014BE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9C1522372640099A9E4FC83828AAF7F9;
-			remoteInfo = "BLAMCurrencyPicker-BLAMCurrencyPicker";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04832DF2FED6AB7DA87C6116B211E6C7 /* ResourceBundle-BLAMCurrencyPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BLAMCurrencyPicker-Info.plist"; sourceTree = "<group>"; };
 		08EB9821FB5B9F801F415103D86794A2 /* ObjCMatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjCMatcher.swift; path = Sources/Nimble/Wrappers/ObjCMatcher.swift; sourceTree = "<group>"; };
 		09E53985A018FF5695153451D9A75E23 /* BeLessThan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLessThan.swift; path = Sources/Nimble/Matchers/BeLessThan.swift; sourceTree = "<group>"; };
 		0A23660151A5483996EB79DABAF20BC9 /* Pods-BLAMCurrencyPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLAMCurrencyPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0C83F5C578988BC0F8D2A7B6ADFD0E5F /* Expectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expectation.swift; path = Sources/Nimble/Expectation.swift; sourceTree = "<group>"; };
 		0E5D10BCD0066C637018C7806D39B902 /* ExampleGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleGroup.swift; path = Sources/Quick/ExampleGroup.swift; sourceTree = "<group>"; };
 		0EF343DFD1C01B260FA04D422349D426 /* QuickSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickSpec.m; path = Sources/Quick/QuickSpec.m; sourceTree = "<group>"; };
-		111D39BC9A306F812AC559FDDA2BA5D6 /* BGSCurrencyPickerDataController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BGSCurrencyPickerDataController.swift; path = CoreData/BGSCurrencyPickerDataController.swift; sourceTree = "<group>"; };
 		11D22A66AD4CF0ED8361AF36F94FD91C /* BeLogical.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLogical.swift; path = Sources/Nimble/Matchers/BeLogical.swift; sourceTree = "<group>"; };
 		15DDE0DDB5FBDB7FA49967B1E9DBE095 /* Nimble.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Nimble.modulemap; sourceTree = "<group>"; };
+		1642C955345ACB4239EB079A1C7AC4DE /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		168FB3F77E4C4F8A60BD0821D35D19C7 /* Contain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Contain.swift; path = Sources/Nimble/Matchers/Contain.swift; sourceTree = "<group>"; };
 		16919C7A4E4268D3FF7586B89894D6FD /* Quick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Quick.h; path = Sources/Quick/Quick.h; sourceTree = "<group>"; };
 		16A490DE6EF5FD2EECBD3E87DDD7B1F0 /* XCTestSuite+QuickTestSuiteBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestSuite+QuickTestSuiteBuilder.m"; path = "Sources/Quick/XCTestSuite+QuickTestSuiteBuilder.m"; sourceTree = "<group>"; };
@@ -231,6 +233,7 @@
 		1FA5D4FC1244F6004BFD4CAFE86063EF /* Quick.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Quick.xcconfig; sourceTree = "<group>"; };
 		20CC416E6691073F6AA0B44428259AC1 /* DSL+Wait.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DSL+Wait.swift"; path = "Sources/Nimble/DSL+Wait.swift"; sourceTree = "<group>"; };
 		222F96E69DBD84682F798B021DBB0FEB /* Pods_BLAMCurrencyPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLAMCurrencyPicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C62C7E35BEAF753FE71B5AA130374B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		233BF814866ED4F7C6434F41F12EFBCF /* AdapterProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdapterProtocols.swift; path = Sources/Nimble/Adapters/AdapterProtocols.swift; sourceTree = "<group>"; };
 		23D8617C7CB79D6BC7E4582B59727905 /* Async.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Async.swift; path = Sources/Nimble/Utils/Async.swift; sourceTree = "<group>"; };
 		249D2638D0070442D0D750885D075640 /* Stringers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stringers.swift; path = Sources/Nimble/Utils/Stringers.swift; sourceTree = "<group>"; };
@@ -242,7 +245,6 @@
 		2D408868EC1DE6661EB54593639ABBA8 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		2E72D189D532BCB6FD1CA5FE6E0D7DD0 /* Pods-BLAMCurrencyPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BLAMCurrencyPicker_Example.modulemap"; sourceTree = "<group>"; };
 		311C620023A9445DE68F2582C13839E5 /* DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSL.swift; path = Sources/Quick/DSL/DSL.swift; sourceTree = "<group>"; };
-		311CF11D13AE22325AFE7AC71CCA93ED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31B876839489EC061BA2BA8EA8E3BAAE /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Sources/Nimble/Expression.swift; sourceTree = "<group>"; };
 		31BF114844757A1C025C186AF07DB384 /* Pods-BLAMCurrencyPicker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLAMCurrencyPicker_Tests-resources.sh"; sourceTree = "<group>"; };
 		33045C4D701E54CE8539A9038ADBFBDA /* ObjCExpectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjCExpectation.swift; path = Sources/Nimble/ObjCExpectation.swift; sourceTree = "<group>"; };
@@ -252,67 +254,68 @@
 		35601D391D74514DB2AF5A31CEBB45EE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36215F7E5778F54BA3D2A39454D4B03F /* CurrentTestCaseTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CurrentTestCaseTracker.m; path = Sources/Nimble/objc/CurrentTestCaseTracker.m; sourceTree = "<group>"; };
 		36C9BFB4E392CEED3BC63CB05F5EADAF /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		37F4A4ABF1BA756E4009DB36BD3E1C6F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		391C6E34A9932979C06C896A9A168089 /* BGSCurrencyPickerDataController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BGSCurrencyPickerDataController.swift; sourceTree = "<group>"; };
 		3A347C7378D4F18FC0A876A2AFCAD1FD /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		3A7690B0F9A9191677C4FDB80E5AB366 /* Pods-BLAMCurrencyPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BLAMCurrencyPicker_Example-dummy.m"; sourceTree = "<group>"; };
 		3AF8AA3C61DEAB1AE63DB0C1F6249F78 /* Pods-BLAMCurrencyPicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLAMCurrencyPicker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3C2C2BAD01E1ACE3746AD88DB21B102D /* BGSCurrencyPickerCVDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BGSCurrencyPickerCVDataSource.swift; sourceTree = "<group>"; };
 		40A4E9A5259FFBF2F5AFEDF2B5340C1E /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		425293E77484F37F2F26FA98CECCAB9F /* AllPass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AllPass.swift; path = Sources/Nimble/Matchers/AllPass.swift; sourceTree = "<group>"; };
 		440C1E2EE5D680BE6079CE69974985C3 /* BeIdenticalTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeIdenticalTo.swift; path = Sources/Nimble/Matchers/BeIdenticalTo.swift; sourceTree = "<group>"; };
+		488F02A27FC87FF75CF181909678FFE8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		48F777E25ED36E70CE87097188DADEAA /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		4957F682B3F1EE74D842B29320D0D131 /* BeEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeEmpty.swift; path = Sources/Nimble/Matchers/BeEmpty.swift; sourceTree = "<group>"; };
 		49AEB803D8113B84CEF9D7767BA8BDF2 /* DSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DSL.m; path = Sources/Nimble/objc/DSL.m; sourceTree = "<group>"; };
 		49D2C7849BF96607CCC8F48B5000898E /* HaveCount.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HaveCount.swift; path = Sources/Nimble/Matchers/HaveCount.swift; sourceTree = "<group>"; };
 		4C459E94002A437969670FDDB8BD1D06 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D582674A6983604C34B81F809F76255 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		4ECEF89BC518C0A1F3E3E491BCB2359B /* Pods_BLAMCurrencyPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLAMCurrencyPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F9A86C64CE32DC472A22714AC364457 /* BGSCurrencyPickerDataModel.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; path = BGSCurrencyPickerDataModel.xcdatamodel; sourceTree = "<group>"; };
 		5038A9C14E90AA451724DCD0D3FCA8BA /* NSBundle+CurrentTestBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSBundle+CurrentTestBundle.swift"; path = "Sources/Quick/NSBundle+CurrentTestBundle.swift"; sourceTree = "<group>"; };
-		5228C48A15403A050C86EBC86872DD78 /* BGSCurrencyPickerCVDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BGSCurrencyPickerCVDataSource.swift; path = CoreData/BGSCurrencyPickerCVDataSource.swift; sourceTree = "<group>"; };
-		550B343B8EBB8FE3315A60CE2EBDD964 /* ResourceBundle-BLAMCurrencyPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BLAMCurrencyPicker-Info.plist"; sourceTree = "<group>"; };
 		599644A4F7E0D425F0BAAE68F5028FBE /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		5AD55F3974939097556240403DEE2DFF /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A7C57AAD1F3C0C802C394AAA6309ED3 /* BGSCurrencyPickerVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BGSCurrencyPickerVC.swift; sourceTree = "<group>"; };
+		5AF364E804A1F3C55D8F2F6804CAFEF5 /* BLAMCurrencyPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLAMCurrencyPicker-umbrella.h"; sourceTree = "<group>"; };
+		5B0B95EE3A4B18182195C243AB2059C1 /* CurrencyCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CurrencyCode.swift; sourceTree = "<group>"; };
 		5CE5D30F0D3C4A71B9A23B47406AE1BC /* Quick-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Quick-dummy.m"; sourceTree = "<group>"; };
-		5D05E69A66C4CCC05E351D8661EBBC05 /* BGSCurrencyPickerCVCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = BGSCurrencyPickerCVCell.xib; path = CoreData/BGSCurrencyPickerCVCell.xib; sourceTree = "<group>"; };
 		5E80757399B4C382A04E71F06E7EE36F /* Nimble-Snapshots.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Nimble-Snapshots.xcconfig"; sourceTree = "<group>"; };
+		5F132091D7259E494C85BA8D31067A1F /* BGSCurrencyPickerVC.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = BGSCurrencyPickerVC.xib; sourceTree = "<group>"; };
 		60104C3BBC45FA4AE08E62653BA6F961 /* World+DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "World+DSL.swift"; path = "Sources/Quick/DSL/World+DSL.swift"; sourceTree = "<group>"; };
 		60710648C85C46C226A1D15CEA73C5A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		60EB9F49473B798CF5EC55011A2A85B1 /* BLAMCurrencyPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLAMCurrencyPicker-umbrella.h"; sourceTree = "<group>"; };
 		64228F5CDC7D1D84B4330B40FFB69D8A /* Quick-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quick-umbrella.h"; sourceTree = "<group>"; };
+		668F977BEEEFDA31DC6E34659B8B740E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
 		676C36E5049792670440A6A37A23B705 /* BeAKindOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAKindOf.swift; path = Sources/Nimble/Matchers/BeAKindOf.swift; sourceTree = "<group>"; };
-		68D4AD2DB40830A1D0D9B29AD9A72ACF /* BLAMCurrencyPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BLAMCurrencyPicker.xcconfig; sourceTree = "<group>"; };
 		6B4E8F0A0B14361B2EAE4D0DA0BE57EB /* QuickConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickConfiguration.m; path = Sources/Quick/Configuration/QuickConfiguration.m; sourceTree = "<group>"; };
 		6CC8B86181C85EC4029D31826D97DBDE /* MatcherProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatcherProtocols.swift; path = Sources/Nimble/Matchers/MatcherProtocols.swift; sourceTree = "<group>"; };
+		6EDC69CCD428449770250C94C7876ABB /* BLAMCurrencyPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BLAMCurrencyPicker-dummy.m"; sourceTree = "<group>"; };
 		7062372F3FE20F48949205E7205DB370 /* Nimble_Snapshots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble_Snapshots.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		712924708985B1EB68BCE0D290D815FC /* BeLessThanOrEqual.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLessThanOrEqual.swift; path = Sources/Nimble/Matchers/BeLessThanOrEqual.swift; sourceTree = "<group>"; };
 		7395C69488EE986713CFCD76E434400B /* QuickSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickSpec.h; path = Sources/Quick/QuickSpec.h; sourceTree = "<group>"; };
 		74A336ADBA6731B2BA2ED9278F68805E /* Pods-BLAMCurrencyPicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLAMCurrencyPicker_Example-resources.sh"; sourceTree = "<group>"; };
 		7721577730C07577C8AAE8B06E7DBFC0 /* NimbleEnvironment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NimbleEnvironment.swift; path = Sources/Nimble/Adapters/NimbleEnvironment.swift; sourceTree = "<group>"; };
-		77FF979DB93FFC369BEC3D6B3C8B9C7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		786FE4B4725F603253354543D534DE89 /* Equal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Equal.swift; path = Sources/Nimble/Matchers/Equal.swift; sourceTree = "<group>"; };
 		78FE3E59AC0F6D18ED39581FC392C1B7 /* Quick.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Quick.modulemap; sourceTree = "<group>"; };
 		7919E006D8AD5BDDA891839BF797D2B7 /* String+FileName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+FileName.swift"; path = "Sources/Quick/String+FileName.swift"; sourceTree = "<group>"; };
 		7A6D05EE2BA25EB952B5E566EDE6048E /* QuickSelectedTestSuiteBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickSelectedTestSuiteBuilder.swift; path = Sources/Quick/QuickSelectedTestSuiteBuilder.swift; sourceTree = "<group>"; };
 		7EC748B938739D8B87F415EE175F58D1 /* World.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = World.h; path = Sources/Quick/World.h; sourceTree = "<group>"; };
+		809D46F238348FE888CEFE21C22C1E32 /* BGSCurrencyPickerCVCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BGSCurrencyPickerCVCell.swift; sourceTree = "<group>"; };
+		814BA9CB3DD3B00DE645BDF8D5A855DA /* BLAMCurrencyPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BLAMCurrencyPicker.modulemap; sourceTree = "<group>"; };
 		81B63D311A89DBF213137F52077C943D /* Pods-BLAMCurrencyPicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BLAMCurrencyPicker_Tests-umbrella.h"; sourceTree = "<group>"; };
 		821DF24E3D173A442F7E2A38DF613F16 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		848C402D439EB9B5972AECCE4084C23C /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		859C5C30856A6617F00E5D648C212EC9 /* DSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DSL.h; path = Sources/Nimble/objc/DSL.h; sourceTree = "<group>"; };
-		85F45D52086F0D73BA6F02FBD6E3B3D4 /* BLAMCurrencyPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLAMCurrencyPicker-prefix.pch"; sourceTree = "<group>"; };
 		87225E9B9E389551A1F536347B982B04 /* NimbleXCTestHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NimbleXCTestHandler.swift; path = Sources/Nimble/Adapters/NimbleXCTestHandler.swift; sourceTree = "<group>"; };
 		88CC9179543B4BE3415FDF6A9E07E66A /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		8A2875DB0C4F0AF9521B69DF5D170DA6 /* Pods-BLAMCurrencyPicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BLAMCurrencyPicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8C36DB6F05615EC71278526272A72BAD /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D31E0237E03ED8EF7EA006BEB3FF960 /* BGSCurrencyPickerVC.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = BGSCurrencyPickerVC.xib; path = CoreData/BGSCurrencyPickerVC.xib; sourceTree = "<group>"; };
 		8DF1B41E38EDD94E1ED1FE9BC999DEF1 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		8E65CDBFB735DF3AD2C40D79C63092DF /* Nimble.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Nimble.h; path = Sources/Nimble/Nimble.h; sourceTree = "<group>"; };
 		907F33C2B0CF1BD93F497D1B0CCEB5F6 /* BeGreaterThan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeGreaterThan.swift; path = Sources/Nimble/Matchers/BeGreaterThan.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		942E6DF027E8813DEEF10A7BAD41D8EC /* BGSCurrencyPickerCVCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = BGSCurrencyPickerCVCell.xib; sourceTree = "<group>"; };
 		9506B010F435611F34DC24CC789A903F /* Pods-BLAMCurrencyPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLAMCurrencyPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9750F8EFAD9602937C6C2E1C256C18E6 /* Pods-BLAMCurrencyPicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BLAMCurrencyPicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9823197EA5904A9150FB0AD8B09841E6 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		996E10C05D249B0C3EDF6C9DFA69D9A1 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		999FFA06127CE356CBCD2A88AE2E3F4A /* BeVoid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeVoid.swift; path = Sources/Nimble/Matchers/BeVoid.swift; sourceTree = "<group>"; };
 		9E685779B53865FBDF4197A9CE4D9FD1 /* ThrowError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThrowError.swift; path = Sources/Nimble/Matchers/ThrowError.swift; sourceTree = "<group>"; };
-		9EFFD2059DBFF99118E8CBFE606A9E0A /* BLAMCurrencyPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BLAMCurrencyPicker.modulemap; sourceTree = "<group>"; };
 		9F5DC65580B17F93D38B52747F3C1A9C /* SourceLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourceLocation.swift; path = Sources/Nimble/Utils/SourceLocation.swift; sourceTree = "<group>"; };
 		9FAE7E08D87DDF34047548FDDA4CBDD5 /* Functional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functional.swift; path = Sources/Nimble/Utils/Functional.swift; sourceTree = "<group>"; };
 		9FF4072FF3B5A22E2FC2DBDFEF8428B3 /* NMBExceptionCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMBExceptionCapture.h; path = Sources/Nimble/objc/NMBExceptionCapture.h; sourceTree = "<group>"; };
@@ -324,6 +327,8 @@
 		AF9E92A19F24F75F631C1F26B339F64C /* Pods-BLAMCurrencyPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLAMCurrencyPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B28003917869A306C9497FB3139B5550 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		B2B112F1E9B122094C5F127A0CA8E480 /* NSString+QCKSelectorName.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+QCKSelectorName.m"; path = "Sources/Quick/NSString+QCKSelectorName.m"; sourceTree = "<group>"; };
+		B34C04609827B3B245FD2077034D18F3 /* BLAMCurrencyPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLAMCurrencyPicker-prefix.pch"; sourceTree = "<group>"; };
+		B37EF5E37995BDF1E4CFA1E64F448DED /* BGSCurrencyPickerCoreData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BGSCurrencyPickerCoreData.swift; sourceTree = "<group>"; };
 		B4F2569FC59B67E76E570E93D89731EB /* NSString+QCKSelectorName.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+QCKSelectorName.h"; path = "Sources/Quick/NSString+QCKSelectorName.h"; sourceTree = "<group>"; };
 		B5CA51A537B8A1D62516D4D49038B2EA /* Example.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Example.swift; path = Sources/Quick/Example.swift; sourceTree = "<group>"; };
 		B6203A309895700207A684C456765291 /* Nimble-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-umbrella.h"; sourceTree = "<group>"; };
@@ -335,15 +340,10 @@
 		BF2C8E711729FB4599F51C263CB8965D /* AssertionRecorder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionRecorder.swift; path = Sources/Nimble/Adapters/AssertionRecorder.swift; sourceTree = "<group>"; };
 		BF446B28545341AFF094A94F8633BDF6 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		C2C9D54735C982473CFF0644E3A03B67 /* ErrorUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorUtility.swift; path = Sources/Quick/ErrorUtility.swift; sourceTree = "<group>"; };
-		C2DE0748B65D427B5259329086C48BDF /* BLAMCurrencyPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BLAMCurrencyPicker-dummy.m"; sourceTree = "<group>"; };
 		C451DC0D60FD3DC965A3ED74A62F67C5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6DA3A806920B5D6DC56ED011270DE1F /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Sources/Quick/Configuration/Configuration.swift; sourceTree = "<group>"; };
 		CD3C2FBB1FC976C951FF3B1F3E7CE2CF /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Quick/Filter.swift; sourceTree = "<group>"; };
 		CE16A61DE504E60CA22D58C451BB9522 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		D0AB346A1D82CD9B00AC19B5 /* BGSCurrencyPickerDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BGSCurrencyPickerDataModel.xcdatamodel; sourceTree = "<group>"; };
-		D0AB346C1D82CE5800AC19B5 /* CurrencyCode+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CurrencyCode+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		D0AB346D1D82CE5800AC19B5 /* CurrencyCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyCode.swift; sourceTree = "<group>"; };
-		D0AB34701D82CEB700AC19B5 /* BGSCurrencyPickerCoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGSCurrencyPickerCoreData.swift; sourceTree = "<group>"; };
 		D1E3296686CAD712AA40C6943D824E24 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D265F92858B7163B7B7C50D380E34E68 /* Nimble-Snapshots-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Nimble-Snapshots-dummy.m"; sourceTree = "<group>"; };
 		D2B9C6039FBA85E8B893D50CDB5CF344 /* BLAMCurrencyPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BLAMCurrencyPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -354,9 +354,11 @@
 		D7E3C353118B3E2CA476674EC4BBCED6 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		D7F5BE94693475F841CEEC329FF19A11 /* AsyncMatcherWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncMatcherWrapper.swift; path = Sources/Nimble/Wrappers/AsyncMatcherWrapper.swift; sourceTree = "<group>"; };
 		D994B4D3BA540103383263CD192B52D9 /* BeCloseTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeCloseTo.swift; path = Sources/Nimble/Matchers/BeCloseTo.swift; sourceTree = "<group>"; };
+		DA024F18EB028F03E50D35B7336EB1DE /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAD73863B384083727F1E1F1433B8FEF /* Callsite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Callsite.swift; path = Sources/Quick/Callsite.swift; sourceTree = "<group>"; };
 		DCF330BF6C88C59845888329E76AF044 /* NMBExceptionCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMBExceptionCapture.m; path = Sources/Nimble/objc/NMBExceptionCapture.m; sourceTree = "<group>"; };
 		DE300E3EAEB55D242BB905111CE02C5A /* MatcherFunc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatcherFunc.swift; path = Sources/Nimble/Wrappers/MatcherFunc.swift; sourceTree = "<group>"; };
+		E0B979388FEA8FB626607ED3673F61F8 /* BLAMCurrencyPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BLAMCurrencyPicker.xcconfig; sourceTree = "<group>"; };
 		E0CB59E222B52B1A8991F62947171AD6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0EFAC066BB7547FC1404236F969B2D6 /* Pods-BLAMCurrencyPicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BLAMCurrencyPicker_Tests.modulemap"; sourceTree = "<group>"; };
 		E1623C89EE0412DAD404D29CDDEF0C0C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -375,26 +377,27 @@
 		EEAD9B4FF295C9E0487B426B9968F28B /* World.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = World.swift; path = Sources/Quick/World.swift; sourceTree = "<group>"; };
 		F03A1A302C6C29F7707D1545C60B509D /* QCKDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QCKDSL.m; path = Sources/Quick/DSL/QCKDSL.m; sourceTree = "<group>"; };
 		F1949094BF7559BC39DC0FF1889CDF9C /* Pods-BLAMCurrencyPicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BLAMCurrencyPicker_Example-umbrella.h"; sourceTree = "<group>"; };
-		F25C576E4B7F5D971DE5EADD85D75FBC /* BGSCurrencyPickerVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BGSCurrencyPickerVC.swift; path = CoreData/BGSCurrencyPickerVC.swift; sourceTree = "<group>"; };
 		F29069528FAD306847C75AF601701B09 /* FailureMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FailureMessage.swift; path = Sources/Nimble/FailureMessage.swift; sourceTree = "<group>"; };
+		F3444D399E36DC71390BC343B18B91CC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5026E1B5E2A8DC8208BC77C323A9100 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5F18A014577D0391052EF282FE3049C /* BeGreaterThanOrEqualTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeGreaterThanOrEqualTo.swift; path = Sources/Nimble/Matchers/BeGreaterThanOrEqualTo.swift; sourceTree = "<group>"; };
-		F609119DC233417D2E53038D69EDA53D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		F6D33E22C1EA1BEFBD331FD3AE10D062 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		F8F65877051A80854B8307C51E5BF152 /* Nimble-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Nimble-dummy.m"; sourceTree = "<group>"; };
 		FB3B4A87FE17DFB2CCA9CAD7D79D0D48 /* HaveValidSnapshot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HaveValidSnapshot.swift; sourceTree = "<group>"; };
 		FB56F2EDBE310D826129A83A3D4B3C9F /* Pods-BLAMCurrencyPicker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLAMCurrencyPicker_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		FBD60414039DFB47973E095ECC22CF7B /* BGSCurrencyPickerCVCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BGSCurrencyPickerCVCell.swift; path = CoreData/BGSCurrencyPickerCVCell.swift; sourceTree = "<group>"; };
-		FD6EE56D4DC2461C7BBF0AE378723875 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		FE997C745F05A9B57C00D839E47FD137 /* QuickTestSuite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTestSuite.swift; path = Sources/Quick/QuickTestSuite.swift; sourceTree = "<group>"; };
+		FF105D01AD09E60D4E3448D8DE1D807D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		FF51A81CF86181D76DF7B232F158D51C /* BeginWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeginWith.swift; path = Sources/Nimble/Matchers/BeginWith.swift; sourceTree = "<group>"; };
+		FFB4FEF7ED83562424DE12FD408682EA /* CurrencyCode+CoreDataProperties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CurrencyCode+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1CA29F833F2263C031E4A4D5727895C6 /* Frameworks */ = {
+		3B834401B2DD04134F013FA6D49E15FB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1817E71FEB26432052A815E38703B1F5 /* Foundation.framework in Frameworks */,
+				30F920DC230C94048638FF38B9EF47C4 /* CoreData.framework in Frameworks */,
+				85039ABEDD16296D627EA87FCFCDE1D9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,13 +426,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4793AD356A57DE14163478168895CC8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BFD72241446E2D199D3818194463D3FE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -439,6 +435,13 @@
 				82E55B1159083B37527C20EB4E621550 /* Nimble.framework in Frameworks */,
 				C033C346AC287D2009457C31E85587D1 /* Quick.framework in Frameworks */,
 				9137D15E4C432CD4FEA43DC273C3ADE8 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D13F4FB2A6889B65CE4816CE60040A55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,20 +494,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/FBSnapshotTestCase";
-			sourceTree = "<group>";
-		};
-		161F8E38A0FB8D48E9A041971DD0B548 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				FBD60414039DFB47973E095ECC22CF7B /* BGSCurrencyPickerCVCell.swift */,
-				5D05E69A66C4CCC05E351D8661EBBC05 /* BGSCurrencyPickerCVCell.xib */,
-				5228C48A15403A050C86EBC86872DD78 /* BGSCurrencyPickerCVDataSource.swift */,
-				111D39BC9A306F812AC559FDDA2BA5D6 /* BGSCurrencyPickerDataController.swift */,
-				F25C576E4B7F5D971DE5EADD85D75FBC /* BGSCurrencyPickerVC.swift */,
-				8D31E0237E03ED8EF7EA006BEB3FF960 /* BGSCurrencyPickerVC.xib */,
-				7193BA626D317161B652503012178188 /* CoreData */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		29BAD1E028FB3F4FA0FB3D1B1139C793 /* Nimble */ = {
@@ -564,14 +553,6 @@
 			path = Nimble;
 			sourceTree = "<group>";
 		};
-		31A279572BFAAEE97946DE2D4D4B91D3 /* BLAMCurrencyPicker */ = {
-			isa = PBXGroup;
-			children = (
-				161F8E38A0FB8D48E9A041971DD0B548 /* Classes */,
-			);
-			path = BLAMCurrencyPicker;
-			sourceTree = "<group>";
-		};
 		33C53BEF91233EA6FC15DDB12FA9FAC9 /* Pods-BLAMCurrencyPicker_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -601,40 +582,41 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		4AEEA551BAA46B474739D96BBC809AE2 /* BLAMCurrencyPicker */ = {
+		55639C23B1B0195F752B090B842AF92D /* BLAMCurrencyPicker */ = {
 			isa = PBXGroup;
 			children = (
-				31A279572BFAAEE97946DE2D4D4B91D3 /* BLAMCurrencyPicker */,
-				6876AA114DCA0D48CEBA965CBC7CD6C9 /* Support Files */,
+				72E9E3A6B277A01AD41BB8E53B89348D /* Classes */,
+			);
+			path = BLAMCurrencyPicker;
+			sourceTree = "<group>";
+		};
+		63BBE84D0703CCC8D0989D34B4BBE018 /* BLAMCurrencyPicker */ = {
+			isa = PBXGroup;
+			children = (
+				55639C23B1B0195F752B090B842AF92D /* BLAMCurrencyPicker */,
+				7FCDD6E3387FE06C99FC711B682F6695 /* Resources */,
+				E61A6E1D764D3615DEA73043E690E280 /* Support Files */,
 			);
 			name = BLAMCurrencyPicker;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		6876AA114DCA0D48CEBA965CBC7CD6C9 /* Support Files */ = {
+		6AB96BB5D8F473161F9B6567333FB0D6 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				9EFFD2059DBFF99118E8CBFE606A9E0A /* BLAMCurrencyPicker.modulemap */,
-				68D4AD2DB40830A1D0D9B29AD9A72ACF /* BLAMCurrencyPicker.xcconfig */,
-				C2DE0748B65D427B5259329086C48BDF /* BLAMCurrencyPicker-dummy.m */,
-				85F45D52086F0D73BA6F02FBD6E3B3D4 /* BLAMCurrencyPicker-prefix.pch */,
-				60EB9F49473B798CF5EC55011A2A85B1 /* BLAMCurrencyPicker-umbrella.h */,
-				311CF11D13AE22325AFE7AC71CCA93ED /* Info.plist */,
-				550B343B8EBB8FE3315A60CE2EBDD964 /* ResourceBundle-BLAMCurrencyPicker-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/BLAMCurrencyPicker";
-			sourceTree = "<group>";
-		};
-		7193BA626D317161B652503012178188 /* CoreData */ = {
-			isa = PBXGroup;
-			children = (
-				D0AB34701D82CEB700AC19B5 /* BGSCurrencyPickerCoreData.swift */,
-				D0AB34691D82CD9B00AC19B5 /* BGSCurrencyPickerDataModel.xcdatamodeld */,
-				D0AB346C1D82CE5800AC19B5 /* CurrencyCode+CoreDataProperties.swift */,
-				D0AB346D1D82CE5800AC19B5 /* CurrencyCode.swift */,
+				942E6DF027E8813DEEF10A7BAD41D8EC /* BGSCurrencyPickerCVCell.xib */,
+				8FF2AFD91C8B5F6FDD1253383D5A0477 /* BGSCurrencyPickerDataModel.xcdatamodeld */,
+				5F132091D7259E494C85BA8D31067A1F /* BGSCurrencyPickerVC.xib */,
 			);
 			path = CoreData;
+			sourceTree = "<group>";
+		};
+		72E9E3A6B277A01AD41BB8E53B89348D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E885040486C78F3A450C4DAFAEEC8631 /* CoreData */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		7770C2629DA6DF2066FA4EF26C7D891E /* Quick */ = {
@@ -679,12 +661,20 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				8DEAD9BD3E285CC956A48799BC096A52 /* Development Pods */,
-				AF3FA1139EC69E065B1C1095C25B2636 /* Frameworks */,
+				C5261255098C04D66E18D0637499DFD8 /* Development Pods */,
+				9581A3EA5948D2D4A872D14275F48FA3 /* Frameworks */,
 				4922328D85C4E3F6A7F490B75C127485 /* Pods */,
 				03DA726312A05A7D0251277AF8CC0B6D /* Products */,
 				F2A3DEA5421D6037951D18809AA98F58 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		7FCDD6E3387FE06C99FC711B682F6695 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ED42F5083F2C21BD222D6621C57239FF /* BLAMCurrencyPicker */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		85A43A897BC9F9E165C5AC35B1C0A8AC /* Support Files */ = {
@@ -715,12 +705,15 @@
 			path = "../Target Support Files/Nimble";
 			sourceTree = "<group>";
 		};
-		8DEAD9BD3E285CC956A48799BC096A52 /* Development Pods */ = {
+		9581A3EA5948D2D4A872D14275F48FA3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4AEEA551BAA46B474739D96BBC809AE2 /* BLAMCurrencyPicker */,
+				F5026E1B5E2A8DC8208BC77C323A9100 /* FBSnapshotTestCase.framework */,
+				DA024F18EB028F03E50D35B7336EB1DE /* Nimble.framework */,
+				1642C955345ACB4239EB079A1C7AC4DE /* Quick.framework */,
+				DA93350ABCAB48244E69ADAA3E2A877A /* iOS */,
 			);
-			name = "Development Pods";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		A2837EA6F65B18FDC5E2246BBA562526 /* Nimble-Snapshots */ = {
@@ -734,26 +727,12 @@
 			path = "Nimble-Snapshots";
 			sourceTree = "<group>";
 		};
-		AF3FA1139EC69E065B1C1095C25B2636 /* Frameworks */ = {
+		BEC2F7347E57B2AB2AD3F3EC8E8863E4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				9823197EA5904A9150FB0AD8B09841E6 /* FBSnapshotTestCase.framework */,
-				5AD55F3974939097556240403DEE2DFF /* Nimble.framework */,
-				8C36DB6F05615EC71278526272A72BAD /* Quick.framework */,
-				BF3B3A2F33523845D63D5ADBE29DBFF4 /* iOS */,
+				6AB96BB5D8F473161F9B6567333FB0D6 /* CoreData */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BF3B3A2F33523845D63D5ADBE29DBFF4 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				77FF979DB93FFC369BEC3D6B3C8B9C7A /* Foundation.framework */,
-				F609119DC233417D2E53038D69EDA53D /* QuartzCore.framework */,
-				4D582674A6983604C34B81F809F76255 /* UIKit.framework */,
-				FD6EE56D4DC2461C7BBF0AE378723875 /* XCTest.framework */,
-			);
-			name = iOS;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		C3FC6E94E1C792D1AC95AFE79915C5EF /* SwiftSupport */ = {
@@ -762,6 +741,14 @@
 				848C402D439EB9B5972AECCE4084C23C /* SwiftSupport.swift */,
 			);
 			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		C5261255098C04D66E18D0637499DFD8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63BBE84D0703CCC8D0989D34B4BBE018 /* BLAMCurrencyPicker */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		C6811A0D12E82EF910B331D1AD29ACB5 /* Core */ = {
@@ -803,6 +790,47 @@
 			path = "Target Support Files/Pods-BLAMCurrencyPicker_Example";
 			sourceTree = "<group>";
 		};
+		DA93350ABCAB48244E69ADAA3E2A877A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				668F977BEEEFDA31DC6E34659B8B740E /* CoreData.framework */,
+				488F02A27FC87FF75CF181909678FFE8 /* Foundation.framework */,
+				FF105D01AD09E60D4E3448D8DE1D807D /* QuartzCore.framework */,
+				37F4A4ABF1BA756E4009DB36BD3E1C6F /* UIKit.framework */,
+				22C62C7E35BEAF753FE71B5AA130374B /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E61A6E1D764D3615DEA73043E690E280 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				814BA9CB3DD3B00DE645BDF8D5A855DA /* BLAMCurrencyPicker.modulemap */,
+				E0B979388FEA8FB626607ED3673F61F8 /* BLAMCurrencyPicker.xcconfig */,
+				6EDC69CCD428449770250C94C7876ABB /* BLAMCurrencyPicker-dummy.m */,
+				B34C04609827B3B245FD2077034D18F3 /* BLAMCurrencyPicker-prefix.pch */,
+				5AF364E804A1F3C55D8F2F6804CAFEF5 /* BLAMCurrencyPicker-umbrella.h */,
+				F3444D399E36DC71390BC343B18B91CC /* Info.plist */,
+				04832DF2FED6AB7DA87C6116B211E6C7 /* ResourceBundle-BLAMCurrencyPicker-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BLAMCurrencyPicker";
+			sourceTree = "<group>";
+		};
+		E885040486C78F3A450C4DAFAEEC8631 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				B37EF5E37995BDF1E4CFA1E64F448DED /* BGSCurrencyPickerCoreData.swift */,
+				809D46F238348FE888CEFE21C22C1E32 /* BGSCurrencyPickerCVCell.swift */,
+				3C2C2BAD01E1ACE3746AD88DB21B102D /* BGSCurrencyPickerCVDataSource.swift */,
+				391C6E34A9932979C06C896A9A168089 /* BGSCurrencyPickerDataController.swift */,
+				5A7C57AAD1F3C0C802C394AAA6309ED3 /* BGSCurrencyPickerVC.swift */,
+				5B0B95EE3A4B18182195C243AB2059C1 /* CurrencyCode.swift */,
+				FFB4FEF7ED83562424DE12FD408682EA /* CurrencyCode+CoreDataProperties.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 		EA67980F3674E1C430257DABE9A2CF24 /* FBSnapshotTestCase */ = {
 			isa = PBXGroup;
 			children = (
@@ -811,6 +839,14 @@
 				C3FC6E94E1C792D1AC95AFE79915C5EF /* SwiftSupport */,
 			);
 			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		ED42F5083F2C21BD222D6621C57239FF /* BLAMCurrencyPicker */ = {
+			isa = PBXGroup;
+			children = (
+				BEC2F7347E57B2AB2AD3F3EC8E8863E4 /* Classes */,
+			);
+			path = BLAMCurrencyPicker;
 			sourceTree = "<group>";
 		};
 		F2A3DEA5421D6037951D18809AA98F58 /* Targets Support Files */ = {
@@ -881,14 +917,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67BAF817267C4B6F8C0E1EA693BC8183 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CF45D78D927A3678B8B6A0618D2629C1 /* BLAMCurrencyPicker-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7CE59C92D6D376E1C09DB1B66DA51442 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -904,6 +932,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9DC1CD02984B7B1DD93A06DA4E19D4E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD75B6509FE3AB3B20A4410D56F0AD9E /* BLAMCurrencyPicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FA325AF514A05222D181960B4B2879F1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -915,6 +951,25 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		19FD622FF0703D43F1CA2E00204CD5BF /* BLAMCurrencyPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2947BBC9D44AE2163321CBABF83EF473 /* Build configuration list for PBXNativeTarget "BLAMCurrencyPicker" */;
+			buildPhases = (
+				17F5AC596EBBAD25AF3C9B1903E1995F /* Sources */,
+				3B834401B2DD04134F013FA6D49E15FB /* Frameworks */,
+				2E1E9247AD8D74F08DD5F030E8CD4D87 /* Resources */,
+				9DC1CD02984B7B1DD93A06DA4E19D4E9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C31B86D8198B07814886185D34462A9 /* PBXTargetDependency */,
+			);
+			name = BLAMCurrencyPicker;
+			productName = BLAMCurrencyPicker;
+			productReference = D2B9C6039FBA85E8B893D50CDB5CF344 /* BLAMCurrencyPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		3EDB1F4980DFF66C9F9FF1B9FEFCEB0D /* Pods-BLAMCurrencyPicker_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9305B7ABAE72B1AD30F1AADCE6E65A9A /* Build configuration list for PBXNativeTarget "Pods-BLAMCurrencyPicker_Tests" */;
@@ -934,25 +989,6 @@
 			name = "Pods-BLAMCurrencyPicker_Tests";
 			productName = "Pods-BLAMCurrencyPicker_Tests";
 			productReference = 4ECEF89BC518C0A1F3E3E491BCB2359B /* Pods_BLAMCurrencyPicker_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		4410D841A3E81751E0632A0BBD100965 /* BLAMCurrencyPicker */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 48BE6A731FAACCDD3442250683966A75 /* Build configuration list for PBXNativeTarget "BLAMCurrencyPicker" */;
-			buildPhases = (
-				47CA7E15C33750BF4601E0AF61A84F54 /* Sources */,
-				1CA29F833F2263C031E4A4D5727895C6 /* Frameworks */,
-				06FAE78E45E2A68629DA6D0C94990B8E /* Resources */,
-				67BAF817267C4B6F8C0E1EA693BC8183 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				464E4AD8B7264CAA767F4633DAE47008 /* PBXTargetDependency */,
-			);
-			name = BLAMCurrencyPicker;
-			productName = BLAMCurrencyPicker;
-			productReference = D2B9C6039FBA85E8B893D50CDB5CF344 /* BLAMCurrencyPicker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5DB46EA499F9A5E22765121102FCC34B /* FBSnapshotTestCase */ = {
@@ -992,23 +1028,6 @@
 			productReference = 7062372F3FE20F48949205E7205DB370 /* Nimble_Snapshots.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9C1522372640099A9E4FC83828AAF7F9 /* BLAMCurrencyPicker-BLAMCurrencyPicker */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D949C5EF3B2D4049DFF6A30A92E91BF1 /* Build configuration list for PBXNativeTarget "BLAMCurrencyPicker-BLAMCurrencyPicker" */;
-			buildPhases = (
-				E0A6880522F2C1BD2EB70E9FFAD332F9 /* Sources */,
-				A4793AD356A57DE14163478168895CC8 /* Frameworks */,
-				D031B8139F2F3B6E2B09F228B07C7270 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "BLAMCurrencyPicker-BLAMCurrencyPicker";
-			productName = "BLAMCurrencyPicker-BLAMCurrencyPicker";
-			productReference = B9E5BB34B5AD2FEADBE4597D1C7D9B1B /* BLAMCurrencyPicker.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
 		A5C430B1E2D8298FD6C5403590C0B80F /* Quick */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDD472835DE04EBDB4665D3207961542 /* Build configuration list for PBXNativeTarget "Quick" */;
@@ -1025,6 +1044,23 @@
 			productName = Quick;
 			productReference = 821DF24E3D173A442F7E2A38DF613F16 /* Quick.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		D315C4F421E5771819D07AF7AFED128A /* BLAMCurrencyPicker-BLAMCurrencyPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD32400549D9F33FCB174BF1A1C1AF53 /* Build configuration list for PBXNativeTarget "BLAMCurrencyPicker-BLAMCurrencyPicker" */;
+			buildPhases = (
+				2251FC233C441F503A7DA7DFCF3CFF23 /* Sources */,
+				D13F4FB2A6889B65CE4816CE60040A55 /* Frameworks */,
+				BBCDFBB47194F527FFD09A38D7105FB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BLAMCurrencyPicker-BLAMCurrencyPicker";
+			productName = "BLAMCurrencyPicker-BLAMCurrencyPicker";
+			productReference = B9E5BB34B5AD2FEADBE4597D1C7D9B1B /* BLAMCurrencyPicker.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		E7DDCE584A4F0E9EE4C731F25E1FB45B /* Pods-BLAMCurrencyPicker_Example */ = {
 			isa = PBXNativeTarget;
@@ -1082,8 +1118,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4410D841A3E81751E0632A0BBD100965 /* BLAMCurrencyPicker */,
-				9C1522372640099A9E4FC83828AAF7F9 /* BLAMCurrencyPicker-BLAMCurrencyPicker */,
+				19FD622FF0703D43F1CA2E00204CD5BF /* BLAMCurrencyPicker */,
+				D315C4F421E5771819D07AF7AFED128A /* BLAMCurrencyPicker-BLAMCurrencyPicker */,
 				5DB46EA499F9A5E22765121102FCC34B /* FBSnapshotTestCase */,
 				FF61C7C740C1B196A3B33F37B77DBC68 /* Nimble */,
 				9A3AE440FB23CCC076AA408C3C4836C4 /* Nimble-Snapshots */,
@@ -1095,18 +1131,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		06FAE78E45E2A68629DA6D0C94990B8E /* Resources */ = {
+		2E1E9247AD8D74F08DD5F030E8CD4D87 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BF2A9BEA378F9E9317D7F4BF9607823 /* BLAMCurrencyPicker.bundle in Resources */,
+				451DBC506F91F05C7F78BB33B8D2A181 /* BLAMCurrencyPicker.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D031B8139F2F3B6E2B09F228B07C7270 /* Resources */ = {
+		BBCDFBB47194F527FFD09A38D7105FB4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				851448CA6893A6EAEDD40B0788685E08 /* BGSCurrencyPickerCVCell.xib in Resources */,
+				73587C0E13B1079E39AA9CB3E49A081E /* BGSCurrencyPickerDataModel.xcdatamodeld in Resources */,
+				173354737B6CBAA4EC60E4A851127E58 /* BGSCurrencyPickerVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1118,6 +1157,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAEDA189835FD7D4506122CDA8063B57 /* Pods-BLAMCurrencyPicker_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17F5AC596EBBAD25AF3C9B1903E1995F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359B954C80757BECB9DBE9F0D097EA43 /* BGSCurrencyPickerCoreData.swift in Sources */,
+				D927CAC621200F7213DDA8722BAFEE04 /* BGSCurrencyPickerCVCell.swift in Sources */,
+				B7169D667C9272F0D7D7D6EB1A805A3F /* BGSCurrencyPickerCVDataSource.swift in Sources */,
+				A5E078D6C853B842A55190212E911FC8 /* BGSCurrencyPickerDataController.swift in Sources */,
+				75F0B4714CD7FD92CDCBD6FA14BBF753 /* BGSCurrencyPickerVC.swift in Sources */,
+				430513AAFD54C561CE353EAD629AAC1F /* BLAMCurrencyPicker-dummy.m in Sources */,
+				FD592959F9E3D17C590C30DF89BF86F1 /* CurrencyCode+CoreDataProperties.swift in Sources */,
+				9E290DB07BD6D9E0F336D41DF64E998D /* CurrencyCode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2251FC233C441F503A7DA7DFCF3CFF23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1172,24 +1233,6 @@
 				96ED0CCA721955637A88FE0C9737EC56 /* SourceLocation.swift in Sources */,
 				A374A2729E32469085C5025EC7115EB8 /* Stringers.swift in Sources */,
 				B43EDBC7DA15A429006C67B63D45ACFD /* ThrowError.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		47CA7E15C33750BF4601E0AF61A84F54 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A19A9CEFC8A7E59749FD11CD89AB4AB7 /* BGSCurrencyPickerCVCell.swift in Sources */,
-				4276F61096C4F0DC5C661C73615EC517 /* BGSCurrencyPickerCVCell.xib in Sources */,
-				F55FB127024EA1A5EF114DD4A3E6B74F /* BGSCurrencyPickerCVDataSource.swift in Sources */,
-				D0AB346E1D82CE5800AC19B5 /* CurrencyCode+CoreDataProperties.swift in Sources */,
-				9FEDE8823CA3E5BED72CE34D042D131E /* BGSCurrencyPickerDataController.swift in Sources */,
-				D0AB34711D82CEB700AC19B5 /* BGSCurrencyPickerCoreData.swift in Sources */,
-				A6F96F810591A915EA896B73E212BC56 /* BGSCurrencyPickerVC.swift in Sources */,
-				A7CF72F5C29A8F9A61196B68201DC3C2 /* BGSCurrencyPickerVC.xib in Sources */,
-				D0AB346F1D82CE5800AC19B5 /* CurrencyCode.swift in Sources */,
-				F094F72475D9AAFF1306A5F38F4C0BD1 /* BLAMCurrencyPicker-dummy.m in Sources */,
-				D0AB346B1D82CD9B00AC19B5 /* BGSCurrencyPickerDataModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1259,20 +1302,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E0A6880522F2C1BD2EB70E9FFAD332F9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		222CBE0D02346E7D784F20B525D81A58 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BLAMCurrencyPicker;
-			target = 4410D841A3E81751E0632A0BBD100965 /* BLAMCurrencyPicker */;
+			target = 19FD622FF0703D43F1CA2E00204CD5BF /* BLAMCurrencyPicker */;
 			targetProxy = 48DB8937185CA5FBE576A5FA5D1512B2 /* PBXContainerItemProxy */;
 		};
 		23693ED13AB3638E2E7C5955B8A14C9E /* PBXTargetDependency */ = {
@@ -1287,11 +1323,11 @@
 			target = 5DB46EA499F9A5E22765121102FCC34B /* FBSnapshotTestCase */;
 			targetProxy = 4CDD470BF5F82E45FFFD16EE20552334 /* PBXContainerItemProxy */;
 		};
-		464E4AD8B7264CAA767F4633DAE47008 /* PBXTargetDependency */ = {
+		4C31B86D8198B07814886185D34462A9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "BLAMCurrencyPicker-BLAMCurrencyPicker";
-			target = 9C1522372640099A9E4FC83828AAF7F9 /* BLAMCurrencyPicker-BLAMCurrencyPicker */;
-			targetProxy = BCFBF87C5CC6E99206C988E5B4A014BE /* PBXContainerItemProxy */;
+			target = D315C4F421E5771819D07AF7AFED128A /* BLAMCurrencyPicker-BLAMCurrencyPicker */;
+			targetProxy = 957073B45A7115836D0CC3207B17B345 /* PBXContainerItemProxy */;
 		};
 		51181AC113284270633563DB2A331F61 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1326,35 +1362,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		00E5DCCB2AC57ACD8FFB7BCB8EFE373A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68D4AD2DB40830A1D0D9B29AD9A72ACF /* BLAMCurrencyPicker.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/BLAMCurrencyPicker/BLAMCurrencyPicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BLAMCurrencyPicker/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BLAMCurrencyPicker/BLAMCurrencyPicker.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = BLAMCurrencyPicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		0DE106E510F04ED2BCADF17E150D7393 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AF9E92A19F24F75F631C1F26B339F64C /* Pods-BLAMCurrencyPicker_Tests.release.xcconfig */;
@@ -1388,22 +1395,34 @@
 			};
 			name = Release;
 		};
-		1C85C84C16B6D13AB5F5643EE08A6EB5 /* Debug */ = {
+		0ED554B5A73745611CFE29FB58DDA132 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68D4AD2DB40830A1D0D9B29AD9A72ACF /* BLAMCurrencyPicker.xcconfig */;
+			baseConfigurationReference = E0B979388FEA8FB626607ED3673F61F8 /* BLAMCurrencyPicker.xcconfig */;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BLAMCurrencyPicker";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/BLAMCurrencyPicker/ResourceBundle-BLAMCurrencyPicker-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/BLAMCurrencyPicker/BLAMCurrencyPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BLAMCurrencyPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BLAMCurrencyPicker/BLAMCurrencyPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = BLAMCurrencyPicker;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		1EAB35ACB452D210D5CF60F7847CD85B /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1426,36 +1445,6 @@
 				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		38430F2E72403DC822E5DF5BE6A14BD4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68D4AD2DB40830A1D0D9B29AD9A72ACF /* BLAMCurrencyPicker.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/BLAMCurrencyPicker/BLAMCurrencyPicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BLAMCurrencyPicker/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BLAMCurrencyPicker/BLAMCurrencyPicker.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = BLAMCurrencyPicker;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1532,6 +1521,23 @@
 			};
 			name = Release;
 		};
+		52DAB476B5C2232B072871808C1031B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0B979388FEA8FB626607ED3673F61F8 /* BLAMCurrencyPicker.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BLAMCurrencyPicker";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/BLAMCurrencyPicker/ResourceBundle-BLAMCurrencyPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PRODUCT_NAME = BLAMCurrencyPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		5AAB066D3D4B35BAA4FCF6385B78B160 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1FA5D4FC1244F6004BFD4CAFE86063EF /* Quick.xcconfig */;
@@ -1561,23 +1567,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		5AF9764C23A6DA77A40B4976F0CE1291 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68D4AD2DB40830A1D0D9B29AD9A72ACF /* BLAMCurrencyPicker.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BLAMCurrencyPicker";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/BLAMCurrencyPicker/ResourceBundle-BLAMCurrencyPicker-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				PRODUCT_NAME = BLAMCurrencyPicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
 		};
 		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1752,6 +1741,36 @@
 			};
 			name = Debug;
 		};
+		BDF23A47F467A9959F13D84413C1245A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0B979388FEA8FB626607ED3673F61F8 /* BLAMCurrencyPicker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BLAMCurrencyPicker/BLAMCurrencyPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BLAMCurrencyPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BLAMCurrencyPicker/BLAMCurrencyPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BLAMCurrencyPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		CBC8377EBA83197B271A26A15AB300D1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1FA5D4FC1244F6004BFD4CAFE86063EF /* Quick.xcconfig */;
@@ -1869,6 +1888,23 @@
 			};
 			name = Release;
 		};
+		F4D7A12E5B9FFD17FA8094DF60949EF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0B979388FEA8FB626607ED3673F61F8 /* BLAMCurrencyPicker.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BLAMCurrencyPicker";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/BLAMCurrencyPicker/ResourceBundle-BLAMCurrencyPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PRODUCT_NAME = BLAMCurrencyPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1890,20 +1926,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		2947BBC9D44AE2163321CBABF83EF473 /* Build configuration list for PBXNativeTarget "BLAMCurrencyPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF23A47F467A9959F13D84413C1245A /* Debug */,
+				0ED554B5A73745611CFE29FB58DDA132 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
 				3FA451D268613890FA8A5A03801E11D5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		48BE6A731FAACCDD3442250683966A75 /* Build configuration list for PBXNativeTarget "BLAMCurrencyPicker" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				38430F2E72403DC822E5DF5BE6A14BD4 /* Debug */,
-				00E5DCCB2AC57ACD8FFB7BCB8EFE373A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1944,11 +1980,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D949C5EF3B2D4049DFF6A30A92E91BF1 /* Build configuration list for PBXNativeTarget "BLAMCurrencyPicker-BLAMCurrencyPicker" */ = {
+		DD32400549D9F33FCB174BF1A1C1AF53 /* Build configuration list for PBXNativeTarget "BLAMCurrencyPicker-BLAMCurrencyPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1C85C84C16B6D13AB5F5643EE08A6EB5 /* Debug */,
-				5AF9764C23A6DA77A40B4976F0CE1291 /* Release */,
+				F4D7A12E5B9FFD17FA8094DF60949EF2 /* Debug */,
+				52DAB476B5C2232B072871808C1031B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1956,12 +1992,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		D0AB34691D82CD9B00AC19B5 /* BGSCurrencyPickerDataModel.xcdatamodeld */ = {
+		8FF2AFD91C8B5F6FDD1253383D5A0477 /* BGSCurrencyPickerDataModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				D0AB346A1D82CD9B00AC19B5 /* BGSCurrencyPickerDataModel.xcdatamodel */,
+				4F9A86C64CE32DC472A22714AC364457 /* BGSCurrencyPickerDataModel.xcdatamodel */,
 			);
-			currentVersion = D0AB346A1D82CD9B00AC19B5 /* BGSCurrencyPickerDataModel.xcdatamodel */;
+			currentVersion = 4F9A86C64CE32DC472A22714AC364457 /* BGSCurrencyPickerDataModel.xcdatamodel */;
 			path = BGSCurrencyPickerDataModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

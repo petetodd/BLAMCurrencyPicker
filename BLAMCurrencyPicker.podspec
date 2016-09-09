@@ -26,17 +26,17 @@ A Collection View based interface for selecting currency symbol and ISO code.  D
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Peter Todd' => 'peter@petertodd.com' }
   s.source           = { :git => 'https://github.com/petetodd/BLAMCurrencyPicker.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/PeteTodd'
 
   s.ios.deployment_target = '9.3'
 
-  s.source_files = 'BLAMCurrencyPicker/Classes/**/*'
+  s.source_files = 'BLAMCurrencyPicker/Classes/**/*.{swift}'
   
   s.resource_bundles = {
      'BLAMCurrencyPicker' => ['BLAMCurrencyPicker/Classes/**/*.{storyboard,xib,xcdatamodeld}']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'CoreData'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

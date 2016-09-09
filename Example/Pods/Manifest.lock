@@ -1,5 +1,5 @@
 PODS:
-  - BLAMCurrencyPicker (0.0.1)
+  - BLAMCurrencyPicker (0.0.3)
   - FBSnapshotTestCase (2.1.2):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.2)
   - FBSnapshotTestCase/Core (2.1.2)
@@ -24,7 +24,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BLAMCurrencyPicker: 98ba274c0548dcee3fe1d9636a762e1e46d19bc3
+  BLAMCurrencyPicker: 3a13277927b3a2320c6f29bb69b25376d2eb95ee
   FBSnapshotTestCase: 918c55861356ee83aee7843d759f55a18ff6982b
   Nimble: 703854335d181df169bbca9c97117b5cf8c47c1d
   Nimble-Snapshots: 2da4d2ec829b458d6886c06812c52493fce284c9
