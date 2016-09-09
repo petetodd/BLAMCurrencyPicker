@@ -33,7 +33,7 @@ A Collection View based interface for selecting currency symbol and ISO code.  D
   s.source_files = 'BLAMCurrencyPicker/Classes/**/*'
   
   s.resource_bundles = {
-     'BLAMCurrencyPicker' => ['BLAMCurrencyPicker/Classes/*.{storyboard,xib,xcdatamodeld}']
+     'BLAMCurrencyPicker' => ['BLAMCurrencyPicker/Classes/**/*.{storyboard,xib,xcdatamodeld}']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
