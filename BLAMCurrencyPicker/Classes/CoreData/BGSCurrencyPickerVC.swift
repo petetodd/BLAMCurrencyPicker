@@ -54,7 +54,9 @@ public class BGSCurrencyPickerVC: UIViewController,UICollectionViewDelegate {
         self.collectionView.delegate = self
         currCtrl.rebuildCurrencyTable(1)
         
-        let podBundle = NSBundle(forClass: BGSCurrencyPickerVC.self)
+//        let podBundle = NSBundle(forClass: BGSCurrencyPickerVC.self)
+        let podBundle = NSBundle(path: NSBundle(forClass: BGSCurrencyPickerVC.self).pathForResource("BLAMCurrencyPicker", ofType: "bundle")!)
+
         print("podBundle :\(podBundle)")
 
         
