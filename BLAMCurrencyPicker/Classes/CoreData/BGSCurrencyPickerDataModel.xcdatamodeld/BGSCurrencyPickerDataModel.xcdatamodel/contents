@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15G1004" minimumToolsVersion="Xcode 7.0">
+    <elements/>
+    <entity name="CurrencyCode" representedClassName=".CurrencyCode" syncable="YES">
+        <attribute name="codeISO" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="currencyName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="priorityRating" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="unicodeDec" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uniCodeHex" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="versionRef" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CurrencyCode" positionX="-27" positionY="18" width="128" height="135"/>
+    </elements>
+</model>

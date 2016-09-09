@@ -1,0 +1,6 @@
+framework module BLAMCurrencyPicker {
+  umbrella header "BLAMCurrencyPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}
