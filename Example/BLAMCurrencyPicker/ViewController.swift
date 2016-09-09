@@ -41,6 +41,12 @@ class ViewController: UIViewController, BGSCurrencyPickerVCProtocol  {
         
     }
     
+    @IBAction func butTestAction(sender: AnyObject) {
+        let podBundle = NSBundle(forClass: BGSCurrencyPickerVC.self)
+        let viewController = BLAMCurrencyPickerViewController(nibName: "BLAMCurrencyPickerViewController", bundle: podBundle)
+        self.presentViewController(viewController, animated: true, completion: nil)
+  
+    }
     //MARK:- Delegate implementations
     func bgsCurrencyPicked(currISO: String, currHex: String){
         lblCurrency.text = currHex

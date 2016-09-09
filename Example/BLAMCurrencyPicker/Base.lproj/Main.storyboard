@@ -37,6 +37,13 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2aK-Qe-d4Y">
+                                <rect key="frame" x="50" y="154" width="46" height="30"/>
+                                <state key="normal" title="TEST"/>
+                                <connections>
+                                    <action selector="butTestAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="4sE-LC-ofJ"/>
+                                </connections>
+                            </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wYi-9H-8zi">
                                 <rect key="frame" x="57" y="58" width="46" height="12"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
