@@ -25,9 +25,11 @@ class BGSCurrencyPickerCoreData {
     lazy var managedObjectModel: NSManagedObjectModel = {
         // The managed object model for the application. This property is not optional. It is a fatal error for the application not to be able to find and load its model.
 
-        let podBundle = NSBundle(forClass: BGSCurrencyPickerVC.self)
+//        let podBundle = NSBundle(forClass: BGSCurrencyPickerVC.self)
+        let podBundle = NSBundle(path: NSBundle(forClass: BGSCurrencyPickerVC.self).pathForResource("BLAMCurrencyPicker", ofType: "bundle")!)
 
-        let momURL = podBundle.URLForResource("BGSCurrencyPickerDataModel", withExtension: "momd")
+
+        let momURL = podBundle!.URLForResource("BGSCurrencyPickerDataModel", withExtension: "momd")
 
         return NSManagedObjectModel(contentsOfURL: momURL!)!
     }()
