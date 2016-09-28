@@ -27,7 +27,8 @@ class ViewController: UIViewController, BGSCurrencyPickerVCProtocol  {
     }
     
     @IBAction func butCurrPickerAction(_ sender: AnyObject) {
-        let podBundle = Bundle(for: BGSCurrencyPickerVC.self)
+        let podBundle = Bundle(path: Bundle(for: BGSCurrencyPickerVC.self).path(forResource: "BLAMCurrencyPicker", ofType: "bundle")!)
+
         
         let vc = BGSCurrencyPickerVC(nibName: "BGSCurrencyPickerVC", bundle: podBundle)
         vc.view.backgroundColor = UIColor.green
