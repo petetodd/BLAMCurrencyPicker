@@ -8,15 +8,15 @@
 
 import UIKit
 
-public class BLAMCurrencyPickerViewController: UIViewController {
+open class BLAMCurrencyPickerViewController: UIViewController {
 
-   public override func viewDidLoad() {
+   open override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
 
-   public override func didReceiveMemoryWarning() {
+   open override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
@@ -31,8 +31,8 @@ public class BLAMCurrencyPickerViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-    @IBAction func butDismissAction(sender: AnyObject) {
-        dismissViewControllerAnimated(false, completion: nil)
+    @IBAction func butDismissAction(_ sender: AnyObject) {
+        dismiss(animated: false, completion: nil)
     }
 
 }

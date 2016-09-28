@@ -15,7 +15,7 @@ public protocol BGSCurrencyPickerVCProtocol
     /// Method called when the Use option is selected
     /// - Parameter currISO: the ISO 4217 code for the currency (e.g. USD, GBP etc...)
     /// - Parameter currHEX: the uniCodeHex for the currency (e.g. \u{24} for USD)
-    func bgsCurrencyPicked(currISO: String, currHex: String)
+    func bgsCurrencyPicked(_ currISO: String, currHex: String)
 }
 
 
@@ -24,8 +24,8 @@ public protocol BGSCurrencyPickerVCProtocol
 
 
 
-public class BGSCurrencyPickerVC: UIViewController,UICollectionViewDelegate {
-    public var delegate:BGSCurrencyPickerVCProtocol! = nil
+open class BGSCurrencyPickerVC: UIViewController,UICollectionViewDelegate {
+    open var delegate:BGSCurrencyPickerVCProtocol! = nil
 
     @IBOutlet weak var butSelect: UIButton!
     @IBOutlet weak var lblSymbol: UILabel!
@@ -40,7 +40,7 @@ public class BGSCurrencyPickerVC: UIViewController,UICollectionViewDelegate {
     
     
 
-    public override func viewDidLoad() {
+    open override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
@@ -55,12 +55,12 @@ public class BGSCurrencyPickerVC: UIViewController,UICollectionViewDelegate {
         currCtrl.rebuildCurrencyTable(1)
         
 //        let podBundle = NSBundle(forClass: BGSCurrencyPickerVC.self)
-        let podBundle = NSBundle(path: NSBundle(forClass: BGSCurrencyPickerVC.self).pathForResource("BLAMCurrencyPicker", ofType: "bundle")!)
+        let podBundle = Bundle(path: Bundle(for: BGSCurrencyPickerVC.self).path(forResource: "BLAMCurrencyPicker", ofType: "bundle")!)
 
         print("podBundle :\(podBundle)")
 
         
-        self.collectionView!.registerNib( UINib(nibName: "BGSCurrencyPickerCVCell", bundle: podBundle), forCellWithReuseIdentifier: "BGSCurrencyPickerCVCell")
+        self.collectionView!.register( UINib(nibName: "BGSCurrencyPickerCVCell", bundle: podBundle), forCellWithReuseIdentifier: "BGSCurrencyPickerCVCell")
         
 
         if (strISO != nil)
@@ -74,8 +74,8 @@ public class BGSCurrencyPickerVC: UIViewController,UICollectionViewDelegate {
 
         collectionView.dataSource = dataSource
         
-        if UIDevice.currentDevice().userInterfaceIdiom != .Pad{
-            butCancel.hidden = false
+        if UIDevice.current.userInterfaceIdiom != .pad{
+            butCancel.isHidden = false
             
         }
         
@@ -90,11 +90,12 @@ public class BGSCurrencyPickerVC: UIViewController,UICollectionViewDelegate {
      - Returns: nil but populates local vars with country, symbol unicodeHex and ISO
  
 */
-    func isoCurrLookup(strISO: String){
+    func isoCurrLookup(_ strISO: String){
         //query for this ISO code
         let managedObjectContext = BGSCurrencyPickerCoreData.sharedInstance.managedObjectContext
         // Create a new fetch request using the CapitalAsset entity
-        let fetchRequest = NSFetchRequest(entityName: "CurrencyCode")
+        
+        let fetchRequest : NSFetchRequest<NSFetchRequestResult>  = NSFetchRequest(entityName: "CurrencyCode")
         // Find ISO record
         let pred = NSPredicate(format: "codeISO = %@",strISO)
         
@@ -103,7 +104,7 @@ public class BGSCurrencyPickerVC: UIViewController,UICollectionViewDelegate {
         // Execute the fetch request, and cast the results to an array of CapitalAsset objects
         do
         {
-            if let  fetchedResultsArray = try managedObjectContext.executeFetchRequest(fetchRequest) as? [CurrencyCode] {
+            if let  fetchedResultsArray = try managedObjectContext.fetch(fetchRequest) as? [CurrencyCode] {
                 let arrayOfData = NSMutableArray(array: fetchedResultsArray)
                 let currRec = arrayOfData.firstObject as! CurrencyCode
                 self.lblISOCode.text = currRec.codeISO
@@ -118,22 +119,22 @@ public class BGSCurrencyPickerVC: UIViewController,UICollectionViewDelegate {
         }
     }
     
-    public func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+    open func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         // let dashItem = dataDash.eventAtIndexPath(indexPath) as! BGSDashItemProtocol
         
-        if indexPath.section == 0
+        if (indexPath as NSIndexPath).section == 0
         {
-            let curr : CurrencyCode = dataSource.arrayOfData.objectAtIndex(indexPath.row) as! CurrencyCode
+            let curr : CurrencyCode = dataSource.arrayOfData.object(at: (indexPath as NSIndexPath).row) as! CurrencyCode
             lblCountry.text = curr.currencyName
             lblISOCode.text = curr.codeISO
             //  let strUniHex = ("\@",curr.uniCodeHex)
             lblSymbol.text = curr.uniCodeHex
             
         }
-        if indexPath.section == 1
+        if (indexPath as NSIndexPath).section == 1
         {
-            let intRow = collectionView.numberOfItemsInSection(0) + indexPath.row - 1
-            let curr : CurrencyCode = dataSource.arrayOfData.objectAtIndex(intRow) as! CurrencyCode
+            let intRow = collectionView.numberOfItems(inSection: 0) + (indexPath as NSIndexPath).row - 1
+            let curr : CurrencyCode = dataSource.arrayOfData.object(at: intRow) as! CurrencyCode
             lblCountry.text = curr.currencyName
             lblISOCode.text = curr.codeISO
             //  let strUniHex = ("\@",curr.uniCodeHex)
@@ -147,17 +148,17 @@ public class BGSCurrencyPickerVC: UIViewController,UICollectionViewDelegate {
     }
 
     
-    @IBAction func butCancelAction(sender: AnyObject) {
-        dismissViewControllerAnimated(false, completion: nil)
+    @IBAction func butCancelAction(_ sender: AnyObject) {
+        dismiss(animated: false, completion: nil)
     }
     
     
-    @IBAction func butSelectAction(sender: AnyObject) {
+    @IBAction func butSelectAction(_ sender: AnyObject) {
         if self.delegate != nil{
             self.delegate.bgsCurrencyPicked(lblISOCode.text!, currHex: lblSymbol.text!)
 
         }
-        dismissViewControllerAnimated(true, completion: nil)
+        dismiss(animated: true, completion: nil)
 
     }
 
