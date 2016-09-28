@@ -26,29 +26,29 @@ class ViewController: UIViewController, BGSCurrencyPickerVCProtocol  {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func butCurrPickerAction(sender: AnyObject) {
-        let podBundle = NSBundle(forClass: BGSCurrencyPickerVC.self)
+    @IBAction func butCurrPickerAction(_ sender: AnyObject) {
+        let podBundle = Bundle(for: BGSCurrencyPickerVC.self)
         
         let vc = BGSCurrencyPickerVC(nibName: "BGSCurrencyPickerVC", bundle: podBundle)
-        vc.view.backgroundColor = UIColor.greenColor()
-        vc.modalPresentationStyle = UIModalPresentationStyle.Popover
+        vc.view.backgroundColor = UIColor.green
+        vc.modalPresentationStyle = UIModalPresentationStyle.popover
         vc.popoverPresentationController?.sourceView = viewMarker
-        vc.popoverPresentationController?.permittedArrowDirections = UIPopoverArrowDirection.Up
-        vc.preferredContentSize = CGSizeMake(vc.view.frame.width, vc.view.frame.height)
+        vc.popoverPresentationController?.permittedArrowDirections = UIPopoverArrowDirection.up
+        vc.preferredContentSize = CGSize(width: vc.view.frame.width, height: vc.view.frame.height)
         vc.delegate = self
-        self.presentViewController(vc, animated: true, completion: nil)
+        self.present(vc, animated: true, completion: nil)
         
         
     }
     
-    @IBAction func butTestAction(sender: AnyObject) {
-        let podBundle = NSBundle(forClass: BGSCurrencyPickerVC.self)
+    @IBAction func butTestAction(_ sender: AnyObject) {
+        let podBundle = Bundle(for: BGSCurrencyPickerVC.self)
         let viewController = BLAMCurrencyPickerViewController(nibName: "BLAMCurrencyPickerViewController", bundle: podBundle)
-        self.presentViewController(viewController, animated: true, completion: nil)
+        self.present(viewController, animated: true, completion: nil)
   
     }
     //MARK:- Delegate implementations
-    func bgsCurrencyPicked(currISO: String, currHex: String){
+    func bgsCurrencyPicked(_ currISO: String, currHex: String){
         lblCurrency.text = currHex
         lblCurrencyCode.text = currISO
         
