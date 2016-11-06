@@ -14,6 +14,7 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+		D0AD47821DCF732F00126397 /* demoImage.png in Resources */ = {isa = PBXBuildFile; fileRef = D0AD47811DCF732F00126397 /* demoImage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		AA1A77984512114813D55384 /* Pods-BLAMCurrencyPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLAMCurrencyPicker_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BLAMCurrencyPicker_Tests/Pods-BLAMCurrencyPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BBFB816EAF584C9098AE6DBF /* Pods-BLAMCurrencyPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLAMCurrencyPicker_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BLAMCurrencyPicker_Example/Pods-BLAMCurrencyPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C610CC6C2AB0FC250F270C85 /* Pods-BLAMCurrencyPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLAMCurrencyPicker_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BLAMCurrencyPicker_Tests/Pods-BLAMCurrencyPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D0AD47811DCF732F00126397 /* demoImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demoImage.png; sourceTree = "<group>"; };
 		DB7AD5D30AA6480CBF376738 /* Pods-BLAMCurrencyPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLAMCurrencyPicker_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BLAMCurrencyPicker_Example/Pods-BLAMCurrencyPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,6 +92,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				D0AD47801DCF732F00126397 /* demoImages */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for BLAMCurrencyPicker */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -154,6 +157,14 @@
 				5610DFFF03B0C6BB821321A6 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		D0AD47801DCF732F00126397 /* demoImages */ = {
+			isa = PBXGroup;
+			children = (
+				D0AD47811DCF732F00126397 /* demoImage.png */,
+			);
+			path = demoImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0AD47821DCF732F00126397 /* demoImage.png in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
